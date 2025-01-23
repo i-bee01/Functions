@@ -25,4 +25,18 @@ function isEqual(string1,string2){
         return false;
     }
 }
+
+//4.)
 console.log(isEqual("Ibee", "Ibee"));
+console.log(isEqual("Ibee", "Itee"));
+
+let result = isEqual("Ibee", "Ibee");
+console.log(result);
+
+result = isEqual("Ibee", "Itee");
+console.log(result);
+
+//5.)
+function output(parameter){
+    console.log(parameter);
+}
